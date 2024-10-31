@@ -22,7 +22,7 @@
                 $searchQuery = htmlspecialchars($_GET['query']);
         
                 // Connect to the database
-                $servername = "localhost:3306";
+                $servername = "localhost";
                 $username = "u0_9252"; // Replace with your database username
                 $password = ""; // Replace with your database password
                 $dbname = "search_db"; // The database we created earlier
